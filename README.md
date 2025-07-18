@@ -2,18 +2,18 @@
 
 An automated delivery route planner that solves a constrained Traveling Salesman–style problem using real-world delivery rules. This project was developed as part of WGU's C950 Data Structures and Algorithms II course.
 
-## 📦 Project Overview
+## Project Overview
 
 The system determines the most efficient delivery routes for multiple trucks based on package deadlines, delivery groupings, and manually loaded truck assignments. The focus is on route optimization, algorithm design, and runtime efficiency under constraints similar to real-world logistics systems.
 
-## 🧠 Key Features
+## Key Features
 
 - Nearest neighbor–based greedy algorithm for efficient routing
 - Custom-built hash table for package storage and fast lookup
 - Manual truck loading and address correction support
 - Real-time distance calculation and accumulated mileage tracking
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - Python (3.x)
 - Object-Oriented Programming (OOP)
@@ -21,7 +21,7 @@ The system determines the most efficient delivery routes for multiple trucks bas
 - Graph Traversal
 - Custom Hash Table Implementation
 
-## 🗂️ File Structure
+## File Structure
 
 - `main.py` – Entry point; coordinates delivery logic
 - `route.py` – Routing class that performs traversal logic and distance tracking
@@ -32,7 +32,7 @@ The system determines the most efficient delivery routes for multiple trucks bas
 - `status.py` – Status lookup engine based on delivery timing
 - `enum_values.py` – Enumerations for delay markers and status types
 
-## 🧪 How to Run
+## How to Run
 
 1. **Clone the repository**
 
